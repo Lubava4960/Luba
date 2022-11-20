@@ -7,10 +7,10 @@ import java.util.Arrays;
 public class Main {
     public static void main(String[] args) {
         int[] costs = new int[30];//Здесь массив из 30 ячеек, по имени Costs//
-        int sum = costs[0]; //переменная для подсчета суммы//
+        int sum = 0; //переменная для подсчета суммы//
         for (int index = 0; index < costs.length; index++) {
 
-            sum += costs[index];//поняла, сумма + сумма ячеек массива, но  они 0 , поэтому и будет ответ 0//
+            sum = costs[index];//поняла,  сумма ячеек массива, но  они 0 , поэтому и будет ответ 0//
         }
         System.out.println(sum);
         //Задача 1.
