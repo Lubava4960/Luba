@@ -5,12 +5,13 @@ import java.sql.SQLOutput;
 import java.util.Arrays;
 
 public class Main {
-    public static void main(String[] args) {
-        int[] costs = new int[30];//Здесь массив из 30 ячеек, по имени Costs//
+    public static void main(String[] args){
+        int[] costs = new int[]{110, 151, 111, 112, 116, 115, 117, 120, 122, 123, 124, 131, 140, 141, 151, 161, 142, 143, 144, 145, 156, 157, 158, 162, 179, 181, 182, 183, 121, 125};//Здесь массив из 30 ячеек, по имени Costs//
+    //
         int sum = 0; //переменная для подсчета суммы//
         for (int index = 0; index < costs.length; index++) {
 
-            sum = costs[index];//поняла,  сумма ячеек массива, но  они 0 , поэтому и будет ответ 0//
+            sum += costs[index];//поняла,  сумма ячеек массива, но  они 0 , поэтому и будет ответ 0//
         }
         System.out.println(sum);
         //Задача 1.
